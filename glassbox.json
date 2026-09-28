@@ -1,0 +1,106 @@
+{
+  "slug": "telephoneclear",
+  "box": 70,
+  "date": "2026-10-05",
+  "title": "TelephoneClear",
+  "question": "How does a telephone work?",
+  "hook": "Your voice squeezes a pinch of carbon, a current copies the sound, and a switch that steps once per pulse finds the other phone. Take a rotary phone apart in 3D, dial it, ring it, and hear why calls sound so \"telephone-y\".",
+  "thumbText": "HOW A PHONE WORKS",
+  "field": "internet",
+  "minutes": 14,
+  "tags": [
+    "telephone",
+    "landline",
+    "rotary dial",
+    "carbon microphone",
+    "telephone exchange",
+    "Strowger switch",
+    "DTMF",
+    "VoIP",
+    "STD PCO",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Two wires and a battery",
+      "text": "A classic phone hangs on a pair of copper wires that run to the exchange. The exchange puts about 48 volts on them. Lift the handset, the hook switch closes, and 20 to 60 milliamps flow round the loop. That current tells the exchange you want to call, and it powers the phone, even in a power cut."
+    },
+    {
+      "title": "A voice becomes a current",
+      "text": "In the mouthpiece, sound squeezes carbon granules behind a diaphragm. Squeezed, they conduct better, so the current rises and falls in the same pattern as your voice. At the far end, that current drives an electromagnet on a permanent magnet, which pulls a steel diaphragm and makes the sound again."
+    },
+    {
+      "title": "Dialling is counting",
+      "text": "A rotary dial breaks the current once per step as it spins back, 10 times a second: 7 breaks for a 7, 10 for a 0. Touch-tone keys send two notes at once instead, one for the row and one for the column, from 697 to 1,633 Hz."
+    },
+    {
+      "title": "The exchange joins the wires",
+      "text": "First operators plugged cords into jacks. From 1892, Strowger switches stepped up one level and round one contact per pulse, with no operator at all. Crossbar grids and then digital chips took over. The exchange rings the other phone with about 75 volts at 25 hertz."
+    },
+    {
+      "title": "Many calls share one line",
+      "text": "Long-distance trunks carry voices as numbers: 8,000 samples a second, 8 bits each, 64 kbit/s per call. Calls take turns in time slots, 30 to an E1 line and millions to a fibre. A satellite hop adds about a quarter of a second of delay, which is why undersea fibre won."
+    },
+    {
+      "title": "Why calls sound telephone-y",
+      "text": "A classic phone channel carries only 300 to 3,400 Hz, enough for words but not for the deep boom or the hiss of a voice. Today many landlines are VoIP over fibre, HD voice widens the band, and 112 reaches emergency help across India and Europe."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Local loop",
+      "def": "The pair of copper wires between your phone and the exchange."
+    },
+    {
+      "term": "Hook switch",
+      "def": "The switch under the cradle that connects the phone to the line when you lift the handset."
+    },
+    {
+      "term": "Carbon transmitter",
+      "def": "A microphone whose carbon granules change their resistance when sound squeezes them."
+    },
+    {
+      "term": "Pulse dialling",
+      "def": "Sending a digit by breaking the line current that many times, about 10 times a second."
+    },
+    {
+      "term": "DTMF",
+      "def": "Dual-tone multi-frequency: each key sends one low and one high tone at the same time."
+    },
+    {
+      "term": "Strowger switch",
+      "def": "An electromechanical switch that steps up and round, one step per dial pulse."
+    },
+    {
+      "term": "Ringing current",
+      "def": "An alternating voltage of about 75 V at 25 Hz that the exchange sends to ring a phone."
+    },
+    {
+      "term": "Time-division multiplexing",
+      "def": "Many calls taking turns on one line, a few bits each, thousands of times a second."
+    },
+    {
+      "term": "Voice band",
+      "def": "The 300 to 3,400 Hz range a classic phone line carries."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "telephoneclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
